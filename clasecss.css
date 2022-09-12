@@ -1,0 +1,14 @@
+.red{
+    color:red;
+}
+
+h2{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    background-color: darkorange;
+    border-color: red;
+    border: 30px dashed;
+}

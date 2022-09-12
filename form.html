@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+  <!--INPUT TEXT Y NUM-->
+        <form target="_blanck" action="./Thankyou.html" method=“get” >
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" />
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" />
+        <label for="edad">Edad:</label>
+        <input type="edad" id="edad" name="edad" />
+        </form>
+  <br></br>
+  <!--SELECTOR DROPDOWN-->
+    <label> Situación laboral: </label>
+    <select name="Situación laboral">
+    <option value="Desempleada">Desempleada</option>
+    <option value="Empleada">Empleada</option>
+    <option value="Autonoma">Autonoma</option>
+    </select>
+    <br></br>
+    <label>Cuántas personas viven en su residencia?</label>
+    <select name="convivientes">
+    <option value="0 a 2">0 a 2</option>
+    <option value="3 a 5">2 a 4</option>
+    <option value="6 o 10">6 a 10</option>
+    <option value="más de 10">más de 10</option>
+    </select>
+<br></br>
+  <!--INPUT TYPE RADIO-->
+    <label>Nivel Educativo Completado:</label>
+    <input type="radio" name="tipus"
+     value="Ninguno" checked> Ninguno
+    <input type="radio" name="tipus"
+     value="primaria"> Primaria
+    <input type="radio" name="tipus"
+     value="Secundaria"> Secundaria
+    <input type="radio" name="tipus"
+     value="Superior"> Superior
+    <input type="radio" name="tipus"
+     value="Universitario"> Universitario
+    <input type="radio" name="tipus"
+     value="Master"> Master
+    <input type="radio" name="tipus"
+     value="Doctorado"> Doctorado
+<br></br>
+ <!--TEXTAREA-->
+    <label for="msg">Qué te ha parecido el evento?</label>
+    <textarea id="msg" name="msg"></textarea>
+<br></br>
+<!--LABEL-->
+    <label for="Nacionalidad">Nacionalidad:</label>
+    <input
+      id="Nacionalidad"
+      name="Nacionalidad"
+      placeholder="Tu nacionalidad aquí" />
+<br></br>
+<!--BOTON DE ENVIO-->
+<input type="submit" value="submit">
+    <a
+    href="./Thankyou.html" alt="gracias"
+    target="_blank">
+    enviar
+  </a>
+</body>
+</html>
