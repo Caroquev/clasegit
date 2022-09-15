@@ -11,8 +11,10 @@ h2{
 
 h1{
     background-color: darkorange;
-    margin: 20px 30px 50px 70px;
+    margin: 20px;
     padding: 20px;
+    text-align: justify;
+    text-align: center;
 }
 
 p{
@@ -25,4 +27,9 @@ p{
 a{
     background-color: brown;
     display: block;
+    text-decoration: none;
+}
+
+ol{
+    list-style: none;
 }
