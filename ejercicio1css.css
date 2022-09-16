@@ -1,10 +1,13 @@
 
 *{
-    text-align: center;
+    text-align: justify;
     font-family: fantasy;
     font-size: large;
+    background-color: aqua;
 }
 h1{
+    margin-left: 80px;
+    text-decoration: underline;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: blueviolet;
 
@@ -12,11 +15,14 @@ p{
     color:gray;
 }
 
-image img{
-    text-align: center;
+image{
+    margin-left: 300px;
     width: 300px;
     height: 250px;
+    border: 25px solid;
+    border-color:yellow
     }
+
 
 ol{
 color: purple;
